@@ -104,7 +104,7 @@ function Home() {
         {/* Hero */}
         <section
           id="home"
-          className="relative scroll-mt-24 overflow-hidden border-b border-stone-200 pt-36 pb-24 sm:pt-44 sm:pb-32"
+          className="relative scroll-mt-24 overflow-hidden border-b border-stone-200 pt-20 pb-24 sm:pt-28 sm:pb-32"
         >
           <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
             <Reveal>
@@ -442,8 +442,11 @@ function Home() {
 
               {/* Map */}
               <Reveal delay={150}>
-                <div className="min-h-[350px] overflow-hidden rounded-sm border border-stone-200 bg-stone-100 shadow-sm">
-                  <iframe
+                <div
+                  id="location"
+                  className="min-h-[350px] overflow-hidden rounded-sm border border-stone-200 bg-stone-100 shadow-sm scroll-mt-24"
+                >
+                        <iframe
                     title="Casiciaco Research Advisory Office location"
                     src="https://www.google.com/maps?q=Calamba,+Laguna,+Philippines&output=embed"
                     width="100%"
