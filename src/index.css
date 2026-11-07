@@ -1,7 +1,5 @@
-
 @import "tailwindcss";
 
-/* Global baseline */
 :root {
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
@@ -13,12 +11,10 @@
   background: #FDFBF7;
 }
 
-/* Consistent box sizing */
 * {
   box-sizing: border-box;
 }
 
-/* Document defaults */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
@@ -30,35 +26,13 @@ body {
   min-height: 100vh;
 }
 
-/* React root should occupy the available width */
 #root {
   width: 100%;
   min-height: 100vh;
 }
 
-/* Scroll reveal animation */
-[data-reveal] {
-  opacity: 0;
-  transform: translateY(18px);
-  transition:
-    opacity 350ms ease-out,
-    transform 350ms ease-out;
-}
-
-[data-reveal].is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
-  }
-
-  [data-reveal] {
-    opacity: 1;
-    transform: none;
-    transition: none;
   }
 }
