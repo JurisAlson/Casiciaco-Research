@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 :root {
@@ -24,11 +25,17 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 #root {
   width: 100%;
   min-height: 100vh;
+}
+
+img,
+iframe {
+  max-width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {
