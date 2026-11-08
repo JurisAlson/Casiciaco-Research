@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import {
   BrowserRouter,
@@ -10,6 +11,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import FacebookContact from "./Components/UI/FacebookContact";
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -52,6 +54,8 @@ function App() {
       </Routes>
 
       <Footer />
+
+      <FacebookContact />
     </BrowserRouter>
   );
 }
