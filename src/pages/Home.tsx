@@ -409,7 +409,7 @@ function Home() {
                           Operating Hours
                         </h3>
                         <p className="mt-2 break-words text-xs leading-5 text-stone-600 sm:text-sm sm:leading-7">
-                          [Operating days and hours]
+                          Monday – Friday: <span className="font-medium text-[#1A2332]">8:00 AM – 5:00 PM</span>
                         </p>
                       </div>
                     </div>
