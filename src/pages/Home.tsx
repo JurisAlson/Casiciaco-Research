@@ -379,7 +379,7 @@ function Home() {
                           Email
                         </h3>
                         <p className="mt-2 break-words text-xs leading-5 text-stone-600 sm:text-sm sm:leading-7">
-                          [Organization email]
+                          jnaeduc@yahoo.com.ph
                         </p>
                       </div>
                     </div>
@@ -394,7 +394,7 @@ function Home() {
                           Phone
                         </h3>
                         <p className="mt-2 break-words text-xs leading-5 text-stone-600 sm:text-sm sm:leading-7">
-                          [Contact number]
+                          +63 9985304047
                         </p>
                       </div>
                     </div>
@@ -421,10 +421,10 @@ function Home() {
                       />
                       <div className="min-w-0">
                         <h3 className="text-xs font-semibold text-[#1A2332] sm:text-base">
-                          Office Address
+                          Address
                         </h3>
                         <p className="mt-2 break-words text-xs leading-5 text-stone-600 sm:text-sm sm:leading-7">
-                          [Complete office address]
+                          Calamba Laguna, Brgy Barandal
                         </p>
                       </div>
                     </div>
