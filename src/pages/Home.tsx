@@ -431,7 +431,7 @@ function Home() {
                   </div>
 
                   <a
-                    href="mailto:YOUR_EMAIL_ADDRESS"
+                    href="mailto:jnalseduc@yahoo.com.ph"
                     className="mt-6 inline-flex items-center gap-2 bg-[#7A1C1C] px-3 py-3 text-[10px] font-semibold text-white transition-colors hover:bg-[#5F1515] sm:mt-10 sm:gap-3 sm:px-7 sm:py-4 sm:text-sm"
                   >
                     Request Consultation

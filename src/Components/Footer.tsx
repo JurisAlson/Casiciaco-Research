@@ -56,15 +56,15 @@ function Footer() {
 
               <li className="flex items-start gap-2">
                 <Mail size={15} className="mt-0.5 shrink-0 text-[#C7A98B]" />
-                <a href="mailto:YOUR_EMAIL_ADDRESS" className="break-all hover:text-white">
-                  YOUR_EMAIL_ADDRESS
+                <a href="mailto:jnalseduc@yahoo.com.ph" className="break-all hover:text-white">
+                  jnalseduc@yahoo.com.ph
                 </a>
               </li>
 
               <li className="flex items-start gap-2">
                 <Phone size={15} className="mt-0.5 shrink-0 text-[#C7A98B]" />
-                <a href="tel:YOUR_PHONE_NUMBER" className="break-all hover:text-white">
-                  YOUR_PHONE_NUMBER
+                <a href="tel: 0998 530 4047" className="break-all hover:text-white">
+                  +63 998 530 4047
                 </a>
               </li>
             </ul>
